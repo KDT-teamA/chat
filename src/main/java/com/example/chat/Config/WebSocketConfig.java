@@ -24,7 +24,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer{
         // 예: /app /chat /send
         config.setApplicationDestinationPrefixes("/app");
 
-        // 클라이언트가 구독할 수 있는 주제(prefix)를 설정
+        // 클라이언트가 구독할 방을 설정
         // 예: /topic /chat
         config.enableSimpleBroker("/topic");
     }
